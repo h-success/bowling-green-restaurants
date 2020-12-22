@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>Bowling Green Restaurants </title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Walter+Turncoat" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #f5f5f5;
+			font-family: 'Open Sans', sans sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		section {
+
+			width: 80%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-size: 3em;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			letter-spacing: .04em;
+		}
+
+		h2 {
+			font-size: 2em;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 0px auto;
+		}
+
+	    }
+		.max-width-img {
+	       width: 100%;
+        }
+
+		.max-width-img {
+			width: 100%;
+		}
+
+		.linkbox {
+			margin: 3px 0 20px 0;
+			display: block;
+			font-weight: 300;
+		}
+
+		hr {
+			border: 0px;
+			border-bottom: 1px solid #3d3d3d;
+			padding-top: 20px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<section>
+
+		<!-- This is an HTML comment. Find the comments below and follow the instructions. -->
+
+		<h1>Map of Bowling Green Restaurants</h1>
+
+		<div id='map'>
+				<!-- Add your custom HTML here --> 
+				<img src="graphics/bgky-restaurants-1200px.png" class="max-width-img" alt="Bowling Green Restaurants">
+		</div>
+		<a href="graphics/bgky-restaurants-8000px.png">Link to high resolution map</a>
+		<br>
+		
+
+		<!-- Add you information below -->
+		<h2>Authored by Heather Cowherd</h2>
+		<p>The above image is of my initial map for the final project. The map is a visualization of the various restaurants located in Bowling Green, KY. Each green point on the map represents a restaurant. 317 different restaurants are on this map. The map uses geocoding. </p> 
+		<p>The final map will show how many restaurants are privately owned (local) or are corporately owned (part of a franchise). I may use a heatmap to demonstrate this and also use different shapes to represent whether the restaurant is brick/mortar (stationed at a single physical location) or is a food truck. </p>
+		<p> The data used for this map was an excel file containing the restaurants that have an occupational license through the <a href="https://www.bgky.org/finance/license">local city government.</a> </p>
+		<p> Since the data within the excel file was accurate as of April 2019, I also used data from the <a href="https://www.visitbgky.com/restaurants/">Bowling Green Area Convention & Visitors Bureau</a> and the <a href="http://cca.bgchamber.com/restaurants-_41_5007582_category.aspx">Bowling Green Area Chamber of Commerce</a> which contains information about different restaurants in Bowling Green, KY. Additionally, I used Google to manually search information on these different restaurants in order to confirm that these restaurants were still active and to determine whether the restaurant was privately owned or part of a franchise. Local restaurants where the owner has only one restaurant were identified as a 'privately owned restaurant.' Restaurants where identified as being a 'local chain restaurant' if the local restaurant owners had more than one restaurant and did not have a restaurant located in more than two states. Restaurants that were a part of a franchise were listed as 'corporate.' </p> 
+		<p>The map was created using the software QGIS 3.14.16 and using ESRI Server data harvested from the MMQGIS plugin.</p>	
+		<p>Coordinate Reference System: NAD83 / Kentucky Single Zone (ftUS) (EPSG: 3089)</p>
+
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on GitHub: <a href="https://github.com/h-success">View Profile</a></li>
+			<li>Contact Me: heather.cowherd@uky.edu</li>
+		</ul>
+		
+		<p>The image below is of the local restaurant Montana Grille. This restaurant is listed as being one of the top 10 restaurant in Bowling Green, KY on <a href="https://www.tripadvisor.com/Restaurants-g39214-Bowling_Green_Kentucky.html">Tripadvisor</a>. Source: <a href="https://www.visitbgky.com/restaurants/">Bowling Green Area Convention & Visitors Bureau</a> </p>
+		<img src="graphics/montana-grille-larger-image-visitbgky.jpg" class="max-width-img" alt="Montana Grille">
+	</section>
+
+</body>
+
+</html>
